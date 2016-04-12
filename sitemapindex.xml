@@ -6,15 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://www.dnguyen.io/galleries/rss.xml</loc>
-  <lastmod>2016-04-12T21:29:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://www.dnguyen.io/rss.xml</loc>
   <lastmod>2016-04-12T21:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.dnguyen.io/sitemap.xml</loc>
-  <lastmod>2016-04-12T21:29:00Z</lastmod>
+  <lastmod>2016-04-12T21:34:00Z</lastmod>
  </sitemap>
 </sitemapindex>
