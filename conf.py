@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Danh Nguyen"  # (translatable)
-BLOG_TITLE = "Danh Nguyen"  # (translatable)
+BLOG_TITLE = "Blog Title"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "http://www.dnguyen.io/"
