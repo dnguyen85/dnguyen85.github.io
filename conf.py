@@ -129,7 +129,8 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
+        ("/", '<i class="iconside iconm-home"></i> Home'),
+        ("/archive.html", '<i class="iconside iconm-profile"></i> CV'),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
