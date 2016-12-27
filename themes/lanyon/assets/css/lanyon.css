@@ -168,6 +168,7 @@ div.sidebar,.sidebar {
 .sidebar a {
   font-weight: normal;
   color: #fff;
+  font-size: 1rem; 
 }
 .sidebar-item {
   padding: 1rem;
