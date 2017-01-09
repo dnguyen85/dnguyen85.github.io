@@ -9,14 +9,26 @@
 .. type: text
 -->
 
+<div class="bio-container">
+![](images/profile.jpg){.user-image}\
+
 <div class="user-bio">
-![](images/profile.jpg){.user-image}
+
+**Ph.D. Candidate**  
+Electrical Engineering  
+Drexel University
+
+**Email**: danh at dnguyen dot io
+
+</div>
 </div>
 
-**Hi there!** I'm Danh Nguyen, 
+Hi there! I'm Danh Nguyen, 
 a final-year PhD candidate in Electrical Engineering
-at [Drexel University](http://drexel.edu/).
-<!-- -->
+at [Drexel University](http://drexel.edu/),
+with expected completion in May 2017.
+
+
 My research areas 
 focus on _wireless communications and networking_,
 specifically the application
