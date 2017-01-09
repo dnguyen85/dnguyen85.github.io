@@ -9,9 +9,11 @@
 .. type: text
 -->
 
+<div class="user-bio">
 ![](images/profile.jpg){.user-image}
+</div>
 
-Hi. I'm Danh Nguyen, 
+**Hi there!** I'm Danh Nguyen, 
 a final-year PhD candidate in Electrical Engineering
 at [Drexel University](http://drexel.edu/).
 <!-- -->
