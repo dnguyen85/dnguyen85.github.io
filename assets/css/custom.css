@@ -22,3 +22,11 @@ div#bibbase li img {
   margin: auto;
 }
 
+#group_article div.bibbase_group i+span { display: none; }
+#group_inProceedings div.bibbase_group i+span { display: none; }
+#group_techreport div.bibbase_group i+span { display: none; }
+#group_misc div.bibbase_group i+span { display: none; }
+#group_article div.bibbase_group i:after { content: " Journal Articles" }
+#group_inProceedings div.bibbase_group i:after { content: " Conference Proceedings" }
+#group_techreport div.bibbase_group i:after { content: " Technical Reports" }
+#group_misc div.bibbase_group i:after { content: " Patents / Patent Applications" }
