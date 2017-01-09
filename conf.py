@@ -130,6 +130,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home", "iconm-home"),
+        ("/publications", "Publications", "iconm-quill"),
         ("/cv", "CV", "iconm-profile"),
         #  ("/categories/", "Tags"),
         #  ("/rss.xml", "RSS feed"),
