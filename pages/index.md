@@ -1,5 +1,5 @@
 <!--
-.. title: Test
+.. title: About Me
 .. slug: index
 .. date: 2016-12-25 11:26:46 UTC-05:00
 .. tags: 
@@ -9,16 +9,25 @@
 .. type: text
 -->
 
-Congue urna quis lorem. Nam rhoncus pede sed nunc. Etiam vitae quam. Fusce
-feugiat pede vel quam. In et augue.
+![](images/profile.jpg){.user-image}
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Hi. I'm Danh Nguyen, 
+a final-year PhD candidate in Electrical Engineering
+at [Drexel University](http://drexel.edu/).
+<!-- -->
+My research areas 
+focus on _wireless communications and networking_,
+specifically the application
+of advanced physical layer techniques,
+such as smart antennas, MIMO beamforming,
+and reactive responses
+to improve network throughputs.
+<!-- -->
+I am a member of [Drexel Wireless Systems Lab](http://wireless.ece.drexel.edu),
+co-advised by 
+Drs. [Kapil R. Dandekar](http://drexel.edu/ece/contact/faculty-directory/DandekarKapil/) 
+and [Naga Kandasamy](http://www.ece.drexel.edu/kandasamy/)
 
-Phasellus mollis dictum nulla. Integer vitae neque vitae eros fringilla rutrum.
-Vestibulum in pede adipiscing mi dapibus condimentum. Etiam felis risus,
-condimentum in, malesuada eget, pretium ut, sapien. Suspendisse placerat lectus
-venenatis lorem. Sed accumsan aliquam enim. Etiam hendrerit, metus eu semper
-rutrum, nisl elit pharetra purus, non interdum nibh enim eget augue. Sed
-mauris. Nam varius odio a sapien. Aenean rutrum dictum sapien. Fusce pharetra
-elementum ligula. Nunc eu mi non augue iaculis facilisis. 
 
+I hold a M.S. ('14) and B.S. ('09) 
+in Computer Engineering also from Drexel University.

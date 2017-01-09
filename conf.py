@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Danh Nguyen"  # (translatable)
-BLOG_TITLE = "Blog Title"  # (translatable)
+BLOG_TITLE = "Danh Nguyen"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "http://www.dnguyen.io/"
@@ -130,7 +130,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home", "iconm-home"),
-        ("/archive.html", "CV", "iconm-profile"),
+        ("/cv", "CV", "iconm-profile"),
         #  ("/categories/", "Tags"),
         #  ("/rss.xml", "RSS feed"),
     ),
