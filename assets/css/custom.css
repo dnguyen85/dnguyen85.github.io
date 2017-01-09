@@ -12,3 +12,13 @@
   margin-right: 3em;
 }
 
+/** Bibbase styling */
+img.bibbase_icon {
+  display: inherit;
+}
+
+div#bibbase li img {
+  display: inherit;
+  margin: auto;
+}
+
