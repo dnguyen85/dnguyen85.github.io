@@ -1,12 +1,7 @@
-- name: Twitter
-  url: https://twitter.com/abcd
-  class: fa fa-twitter-square
-  title: "Follow me @foo"
-
 - name: Google Plus
   url: https://plus.google.com/115213071173102190492  
   class: fa fa-google-plus-square
-  title: "Follow me on Google"
+  title: "Follow me"
 
 - name: GitHub
   url: https://github.com/dnguyen85
