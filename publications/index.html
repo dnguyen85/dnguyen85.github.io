@@ -93,8 +93,9 @@
 .. link: 
 .. description: 
 .. type: text
+.. template: publications.tmpl
 -->
-<script src="https://bibbase.org/service/mendeley/359dbb01-5b6f-3051-a202-c70155842f48/group/d32563ee-5ea0-351c-90fd-1c1e6e4f632c?jsonp=1&amp;groupby=type"></script>
+<script src="https://bibbase.org/service/mendeley/359dbb01-5b6f-3051-a202-c70155842f48/group/d32563ee-5ea0-351c-90fd-1c1e6e4f632c?jsonp=1&amp;authorFirst=1&amp;groupby=type"></script>
 </div>
     
 
@@ -153,6 +154,38 @@
           checkbox.checked = false;
         }, false);
       })(document);
-    </script><!-- End white space clicking -->
+    </script><!-- End white space clicking --><script>
+        var lastname = "nguyen";
+
+        $('.bibbase_group_body').each(function() {
+            // Get the current element via jQuery
+            var context = $(this); 
+
+            // Extract and remove list of all children div
+            var listitems = context.children('div').get();
+
+            // Sort items by year
+            listitems.sort(function(a, b) {
+                var a_year = parseInt(a.id.substr(a.id.length - 4));
+                var a_pos = parseInt(a.id.indexOf(lastname));
+                var b_year = parseInt(b.id.substr(b.id.length - 4));
+                var b_pos = parseInt(b.id.indexOf(lastname));
+
+                // Compare the 2 keys, reverse the result to descend
+                if (a_year < b_year) return 1;
+                if (a_year > b_year) return -1;
+                // Equal year, compare position of lastname index
+                if (a_pos < b_pos) return -1;
+                if (a_pos > b_pos) return 1;
+                // All else equal, compare id strings
+                return b.id.toUpperCase().localeCompare(a.id.toUpperCase());
+            });
+
+            // Add back list of sorted children
+            $.each(listitems, function(index, item) {
+               context.append(item); 
+            });
+        });
+    </script>
 </body>
 </html>
