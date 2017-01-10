@@ -9,7 +9,7 @@
   title: Code repository
 
 - name: Contact
-  url: "/contact/"
+  url: "mailto:danh@dnguyen.io"
   class: fa fa-envelope-square
   title: "Reach Me"
 
