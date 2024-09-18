@@ -14,4 +14,4 @@ in the general areas of mobile computing and networking.
 <!-- -->
 Please see my CV for more details.
 
-<iframe src="/pdfs/Danh_Nguyen_resume_07_2022.pdf" width="100%" height="1200em"></iframe>
+<iframe src="/pdfs/Danh_Nguyen_resume_09_2024.pdf" width="100%" height="1200em"></iframe>
